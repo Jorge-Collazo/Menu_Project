@@ -1,3 +1,33 @@
 html{
-    background: darkred;
+    background: url("../Images/1.png") no-repeat #E51143;
+    background-size: cover;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+/*Navigation*/
+a{
+    background-color: rgba(255, 255, 255, 0.116);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+#nav{
+    text-align: center;
+}
+
+/*Formating*/
+div{
+    border: 2px solid rgb(0, 255, 0);
+    display: block;
+    box-sizing: border-box;
+}
+.col-1-9{
+    float: left;
+    width: 11%;
+}
+.col-2-5{
+    float: left;
+    width: 40%;
 }
