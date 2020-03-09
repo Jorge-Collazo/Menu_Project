@@ -8,44 +8,15 @@ body{
     font-family: 'Playfair Display', serif;
     color: white;
 }
-#products{
-    background: url("../images/border.png") no-repeat ;
-    background-size: 100%;
-    text-align: center;
-}
 /*Navigation*/
 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
 }
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-ul li{
-    background-color: rgba(0, 0, 0, 0.541);
-    color: white;
-    line-height: 40px;
-    text-align: center;
-}
-ul li a{
-    text-decoration: none;
-    display: block;
-    border: 2px solid rgb(255, 255, 255);
-}
-ul li a:hover{
-    background-color: rgb(223, 189, 0);
-}
-ul li ul li{
-    display: none;
-}
-ul li:hover ul li{
-    display: block;
-}
 #nav{
     text-align: center;
+    z-index: 99;
 }
 #title{
     text-align: center;
@@ -55,30 +26,38 @@ ul li:hover ul li{
     padding-top: auto;
     padding-bottom: auto;
 }
+/*Items*/
+#products{
+    background: url("../images/border (2).png") no-repeat;
+    background-size: 100px;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+    overflow: auto;
+}
 /*Formating*/
 div{
-    border: 2px solid rgb(255, 255, 255);
     display: block;
     box-sizing: border-box;
 }
 div.row{
     clear: both;
 }
-.col-1-10{
+.col-1-9{
     float: left;
-    width: 10%;
+    width: 11.1%;
 }
 .col-1-5{
     float: left;
     width: 20%;
 }
-.col-2-5{
+.col-1-5{
     float: left;
-    width: 40%;
+    width: 20%;
 }
-.col-3-5{
+.col-4-5{
     float: left;
-    width: 60%;
+    width: 80%;
 }
 .col-4-5{
     float: left;
