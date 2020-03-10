@@ -21,20 +21,18 @@ nav{
     background-color: rgba(0, 0, 0, 0.678);
     padding-top: 15px;
     padding-bottom: 15px;
-    border: double gold;
+    border: double #B58500;
 }
 #logo{
-    border: double gold;
+    border: double #B58500;
     background-color: rgba(0, 0, 0, 0.678);
 }
 #title{
     text-align: center;
     font-size: 1.5em;
-    padding-left: 15%;
-    padding-right: 15%;
     padding-top: auto;
     padding-bottom: auto;
-    border: double gold;
+    border: double #B58500;
     background-color: rgba(0, 0, 0, 0.678);
 }
 #main{
@@ -43,22 +41,25 @@ nav{
 }
 /*Items*/
 #products{
-    background: url("../images/border (2).png") no-repeat;
-    background-size: 100px;
+    background: url("../images/borderC.png") no-repeat rgba(0, 0, 0, 0.678);
+    background-size: 35%;
+    border: double 7px #B58500 ;
     text-align: center;
     height: 650px;
-    width: 300px;
-    overflow: scroll;
+    overflow: auto;
 }
 #dishName{
     text-align: center;
 }
-/*cost and description*/
+/*Item details*/
 #cost{
     text-align: center;
 }
 #desc{
     text-align: center;
+}
+#img{
+    padding-left: 10%;
 }
 /*Footer*/
 footer{
@@ -105,6 +106,7 @@ div.row{
 }
 button{
     font-family: 'Playfair Display', serif;
+    font-size: 1em;
     width: 40%;
     height: 40%;
     border-radius: 25%;
