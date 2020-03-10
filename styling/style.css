@@ -16,7 +16,16 @@ a{
 }
 #nav{
     text-align: center;
-    z-index: 99;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.678);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: double gold;
+}
+#logo{
+    border: double gold;
+    background-color: rgba(0, 0, 0, 0.678);
 }
 #title{
     text-align: center;
@@ -25,15 +34,38 @@ a{
     padding-right: 15%;
     padding-top: auto;
     padding-bottom: auto;
+    border: double gold;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+#main{
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 /*Items*/
 #products{
     background: url("../images/border (2).png") no-repeat;
     background-size: 100px;
     text-align: center;
-    height: 500px;
+    height: 650px;
     width: 300px;
-    overflow: auto;
+    overflow: scroll;
+}
+#dishName{
+    text-align: center;
+}
+/*cost and description*/
+#cost{
+    text-align: center;
+}
+#desc{
+    text-align: center;
+}
+/*Footer*/
+footer{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.479);
 }
 /*Formating*/
 div{
@@ -42,6 +74,10 @@ div{
 }
 div.row{
     clear: both;
+}
+.col-1-2{
+    float: left;
+    width: 50%;
 }
 .col-1-9{
     float: left;
