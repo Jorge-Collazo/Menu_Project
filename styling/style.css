@@ -48,14 +48,14 @@ nav{
     height: 650px;
     overflow: auto;
 }
-#dishName{
-    text-align: center;
-}
 /*Item details*/
+#dish{
+    padding-top: 45px;
+}
 #cost{
     text-align: center;
 }
-#desc{
+#dishDesc{
     text-align: center;
 }
 #img{

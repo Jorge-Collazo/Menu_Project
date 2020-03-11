@@ -7,6 +7,7 @@
     <title>Thai, Chinese, Vietnamese, Sushi Resturant Scottsdale Phoenix</title>
     <link href="styling/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="java/appetizers.js" defer></script>
 </head>
 
 <body>
@@ -67,93 +68,90 @@
     <div class="row" id="main">
         <div class="col-1-5" id="products">
             <div class="row">
-                <button><h3>Combination Plate</h3></button>
+                <buttons type="button" onclick="cB()"><h3>Combination Plate</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Egg Rolls (4)</h3>
+                <buttons type="button" onclick="eR()"><h3>Egg Rolls (4)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Tottie Rolls (4)</h3>
+                <buttons type="button" onclick="Tr()"><h3>Tottie Rolls (4)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Shanghai Egg Rolls (4)</h3>
+                <buttons type="button" onclick="sER()"><h3>Shanghai Egg Rolls (4)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Spring Rolls (4)</h3>
+                <buttons type="button" onclick="sR()"><h3>Spring Rolls (4)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Traditional (pork & shrimp)</h3>
+                <buttons type="button" onclick="tPS()"><h3>Traditional (pork & shrimp)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Salmon</h3>
+                <buttons type="button" onclick="s()"><h3>Salmon</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Shrimp Tempura</h3>
+                <buttons type="button" onclick="sT()"><h3>Shrimp Tempura</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Soft Shell Crab</h3>
+                <buttons type="button" onclick="sSC()"><h3>Soft Shell Crab</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Vegetarian</h3>
+                <buttons type="button" onclick="v()"><h3>Vegetarian</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Sugarcane Chicken</h3>
+                <buttons type="button" onclick="sCh()"><h3>Sugarcane Chicken</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Beef on Skewers (4)</h3>
+                <buttons type="button" onclick="bOS()"><h3>Beef on Skewers (4)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Chicken Satay Sticks (2)</h3>
+                <buttons type="button" onclick="cSS()"><h3>Chicken Satay Sticks (2)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Soft Shell Crab with Ponzu Sauce</h3>
+                <buttons type="button" onclick="sSCPS()"><h3>Soft Shell Crab with Ponzu Sauce</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Edamame</h3>
+                <buttons type="button" onclick="e()"><h3>Edamame</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Shrimp Puffs (6)</h3>
+                <buttons type="button" onclick="sP()"><h3>Shrimp Puffs (6)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>BBQ Pork Ribs (4)</h3>
+                <buttons type="button" onclick="bbq()"><h3>BBQ Pork Ribs (4)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Fried Wonton (10)</h3>
+                <buttons type="button" onclick="fW()"><h3>Fried Wonton (10)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Fried Tofu (8)</h3>
+                <buttons type="button" onclick="fT()"><h3>Fried Tofu (8)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Potstickers (5)</h3>
+                <buttons type="button" onclick="p()"><h3>Potstickers (5)</h3></buttons>
             </div>
 
             <div class="row">
-                <h3>Spicy Cucumber <img src="images/mild_Spice.png" alt="mild spice" width="3.7%"></h3>
+                <buttons type="button" onclick="p()"><h3>Spicy Cucumber</h3></buttons><img src="images/mild_Spice.png" alt="mild spice" width="7%">
             </div>
         </div>
-        <div class="col-4-5">
-            <div class="row" id="dishName"><h1>Combination Plate</h1></div>
-            <br>
-            <br>
+        <div class="col-4-5" id="dish">
             <div class="row">
                 <div class="col-1-2">
                     <div class="row" id="img"><img src="images/dish.png" alt="Combination Plate" width="80%"></div>
@@ -161,9 +159,10 @@
                     <br>
                     <div class="row" id="cost">$0.00</div>
                 </div>
-                <div class="col-1-2" id="desc">
-                    <h1>Description</h1>
-                    <p>
+
+                <div class="col-1-2" id="dishDesc">
+                    <h1 id="name">Combination Plate</h1>
+                    <p id="desc">
                         iujdbureif heru e fjgewub ewjff efoy dj dfwydf ogdfweg
                     </p>
                 </div>
