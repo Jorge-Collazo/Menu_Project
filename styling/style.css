@@ -58,7 +58,7 @@ nav:hover{
     background-size: 35%;
     border: double 7px #B58500 ;
     text-align: center;
-    height: 650px;
+    height: 500px;
     overflow: auto;
 }
 /*Item details*/
@@ -67,7 +67,7 @@ nav:hover{
 }
 #cost{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 #dishDesc{
     text-align: center;
