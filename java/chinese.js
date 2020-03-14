@@ -1,18 +1,18 @@
 function q(){
     document.getElementById("cost").innerHTML = "$0.00"
-    document.getElementById("name").innerHTML = "Chicken with Vegetables"
+    document.getElementById("name").innerHTML = "Larb"
     document.getElementById("desc").innerHTML = ""
     document.getElementById("img").innerHTML = "<img src='images/imgChinese/chickenVeggies.png' id='food' alt='CombinationPlate' width='80%'>"
 }
 function w(){
     document.getElementById("cost").innerHTML = "$0.00"
-    document.getElementById("name").innerHTML = "Chicken Chop Suey"
+    document.getElementById("name").innerHTML = "Tofu"
     document.getElementById("desc").innerHTML = ""
     document.getElementById("img").innerHTML = "<img src='images/imgChinese/.png' id='food' alt='CombinationPlate' width='80%'>"
 }
 function e(){
     document.getElementById("cost").innerHTML = "$0.00"
-    document.getElementById("name").innerHTML = "Chicken with Broccoli"
+    document.getElementById("name").innerHTML = "Cucumber Chicken Salad"
     document.getElementById("desc").innerHTML = ""
     document.getElementById("img").innerHTML = "<img src='images/imgChinese/.png' id='food' alt='CombinationPlate' width='80%'>"
 }
